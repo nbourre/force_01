@@ -16,7 +16,7 @@ void draw () {
   update();
   
   background (255);
-
+  
   for (int i = 0; i < movers.length; i++) {
     movers[i].display();
   }
@@ -40,4 +40,3 @@ void update() {
   }
   
 }
-
